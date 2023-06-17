@@ -18,11 +18,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header role="heading" class="header">
+  <header class="header">
     <p class="header__img"><img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/logo.svg" alt="Estiven Mayhuay" width="48" loading="lazy"></p>
 
     <div class="header__info">
-      <h1 class="title">A history of everything you copy</h1>
+      <h1 role="heading" class="title">A history of everything you copy</h1>
       <p class="paragraph">
         Clipboard allows you to track and organize everything you 
         copy. Instantly access your clipboard on all your devices.
@@ -30,14 +30,14 @@
     </div>
 
     <div class="header__button">
-      <button class="btn btn--ios">Download for iOS</button>
-      <button class="btn btn--mac">Download for Mac</button>
+      <button class="btn btn--ios" role="button">Download for iOS</button>
+      <button class="btn btn--mac" role="button">Download for Mac</button>
     </div>
   </header>
 
   <main role="main">
     <section class="keepTrack">
-      <article class="keepTrack__head">
+      <article class="keepTrack__head" role="article">
         <h2 class="subtitle">Keep track of your snippets</h2>
         <p class="paragraph">
           Clipboard instantly stores any item you copy in the cloud, 
@@ -46,7 +46,7 @@
         </p>
       </article>
 
-      <article class="keepTrack__info">
+      <article class="keepTrack__info" role="article">
         <div class="keepTrack__img">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/image-computer.png" alt="Estiven Mayhuay" width="120">
         </div>
@@ -90,15 +90,15 @@
     </section>
 
     <section class="workflow">
-      <div class="workflow__head">
-        <h2 class="title">Supercharge your workflow</h2>
+      <article class="workflow__head" role="article">
+        <h2 class="title" role="heading">Supercharge your workflow</h2>
         <p class="paragraph">
           We’ve got the tools to boost your productivity.
         </p>  
-      </div>
+      </article>
 
-      <ul class="workflow__list">
-        <li>
+      <ul class="workflow__list" role="list">
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/icon-blacklist.svg" alt="Estiven Mayhuay" width="auto" height="40">
           <h4 class="subtitle">Create blacklists</h4>
           <p class="paragraph">
@@ -106,7 +106,7 @@
           </p>
         </li>
 
-        <li>
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/icon-text.svg" alt="Estiven Mayhuay" width="auto" height="40">
           <h4 class="subtitle">Plain text snippets</h4>
           <p class="paragraph">
@@ -114,7 +114,7 @@
           </p>
         </li>
 
-        <li>
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/icon-preview.svg" alt="Estiven Mayhuay" width="auto" height="40">
           <h4 class="subtitle">Sneak preview</h4>
           <p class="paragraph">
@@ -125,36 +125,36 @@
     </section>
 
     <section class="business">
-      <ul class="business__list">
-        <li>
+      <ul class="business__list" role="list">
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/logo-google.png" alt="Estiven" width="48">
         </li>
-        <li>
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/logo-ibm.png" alt="Estiven" width="48">
         </li>
-        <li>
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/logo-microsoft.png" alt="Estiven" width="48">
         </li>
-        <li>
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/logo-hp.png" alt="Estiven" width="48">
         </li>
-        <li>
+        <li role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/logo-vector-graphics.png" alt="Estiven" width="48">
         </li>
       </ul>
     </section>
 
     <section class="miniheader">
-      <h2 class="title">Clipboard for iOS and Mac OS</h2>
+      <h2 class="title" role="heading">Clipboard for iOS and Mac OS</h2>
 
       <p class="paragraph">
         Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.
       </p>
 
-      <div class="miniheader__btn">
-        <button class="btn btn--ios">Download for iOS</button>
-        <button class="btn btn--mac">Download for Mac</button>
-      </div>
+      <article class="miniheader__btn" role="article">
+        <button class="btn btn--ios" role="button">Download for iOS</button>
+        <button class="btn btn--mac" role="button">Download for Mac</button>
+      </article>
     </section>
   </main>
 
@@ -164,29 +164,28 @@
     </div>
 
     <div class="footer__items">
-      <ul>
-        <li><span>FAQs</span></li>
-        <li><span>Contact Us</span></li>
-        <li><span>Privacy Policy</span></li>
-        <li><span>Press Kit</span></li>
-        <li><span>Install Guide</span></li>
+      <ul role="list">
+        <li role="listitem"><span>FAQs</span></li>
+        <li role="listitem"><span>Contact Us</span></li>
+        <li role="listitem"><span>Privacy Policy</span></li>
+        <li role="listitem"><span>Press Kit</span></li>
+        <li role="listitem"><span>Install Guide</span></li>
       </ul>
     </div>
 
     <div class="footer__social">
-      <ul class="social">
-        <li class="social__item">
+      <ul class="social" role="list">
+        <li class="social__item" role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/icon-facebook.svg" alt="Estiven" width="48">
         </li>
 
-        <li class="social__item">
+        <li class="social__item" role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/icon-twitter.svg" alt="Estiven" width="48">
         </li>
 
-        <li class="social__item">
+        <li class="social__item" role="listitem">
           <img src="https://estivenmayhuay.github.io/clipboard-landing-page/images/icon-instagram.svg" alt="Estiven" width="48">
         </li>
-
       </ul>
     </div>
   </footer>
