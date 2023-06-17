@@ -1,0 +1,27 @@
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    --dark-grayih-blue: hsl(210, 10%, 33%);
+    --grayih-blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+main {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
